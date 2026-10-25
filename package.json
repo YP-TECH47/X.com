@@ -1,0 +1,18 @@
+{
+  "name": "x.com-clone",
+  "version": "1.0.0",
+  "description": "this is a self madd ui clone of the twitter aplication which is now turned into x ",
+  "license": "ISC",
+  "author": "Yash Panjwani",
+  "type": "commonjs",
+  "main": "idex.html",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --minify",
+    "server": "vite"
+  },
+  "dependencies": {
+    "tailwindcss": "^4.3.0",
+    "vite": "^8.0.13"
+  }
+}
